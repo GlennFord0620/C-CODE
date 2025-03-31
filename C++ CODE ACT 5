@@ -1,0 +1,57 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main( ){
+      string a;
+      
+      cout << "Enter a word: ";
+      cin >> a;
+      
+      if (a == "Derivative"){
+          cout <<" derivative is the rate of change of a function at a specific point";
+      }else if (a == "Abacus"){
+          cout <<" The first computer.";
+      }else if (a == "Pascaline"){
+          cout <<"Invented by Blaise Pascal.";
+      }else if (a == "Analytical Engine"){
+          cout <<"Invented by Charles Babbage.";
+      }else if (a == "Napier's Bone"){
+          cout <<"Invented by John Napier.";
+      }else if (a == "Mark 1"){
+          cout <<"Invented by Howard Aiken.";
+      }else if (a == "First Gen Computer"){
+          cout <<"Invented in 1940-1956.";
+      }else if (a == "Second Gen Computed"){
+          cout << "Invented in 1957-1963.";
+      }else if (a == "Third Gen computer"){
+          cout << "Has integrated circuits.";
+      }else if (a == "Fourth Gen Computer"){
+          cout << "Invented in 1971-1980 .";
+      }else if (a == "Digital Computer"){
+          cout << "Electronic Devices.";
+      }else if (a == "Analog Computer"){
+          cout << "Used to process data.";
+      }else if (a == "Anti derivative"){
+          cout << "an antiderivative, inverse derivative, primitive function.";
+      }else if (a == "Derivative of 10"){
+          cout << "0.";
+      }else if (a == "Derivative of  10x^2"){
+          cout << "20x.";
+      }else if (a == "Sin x"){
+          cout << "Cos x.";
+      }else if (a == "Cos x"){
+          cout << "-Sin x.";
+      }else if (a == "Tan x"){
+          cout << "Sec ^2 x.";
+      }else if (a == "Calculus"){
+          cout << "Mamatay nalang.";
+      }else if (a == "Eng. Drawing"){
+          cout << "Bobo ako mag drawing.";
+      }else{
+          cout << "Not in my vocabulary";
+      }
+      
+      return 0;
+}
